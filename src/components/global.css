@@ -16,6 +16,50 @@
   src: url('/fonts/Inter-italic.var.woff2?v=3.19') format('woff2');
 }
 
+@font-face{
+  /* thin */
+  font-weight: 300;
+  font-family:"Avenir Next";
+  src:url("/fonts/6383940/a80347f9-6450-460c-8cd9-d38d8cfd392e.woff2") format("woff2"),
+  url("/fonts/6383940/b773c7d4-8353-42fa-9bd7-a7aaca7291d1.woff") format("woff");
+}
+@font-face{
+  /* regualar */
+  font-weight: 400;
+  font-family:"Avenir Next";
+  src:url("/fonts/6149660/c4691e94-080d-4452-8f9f-8b3db6b68d55.woff2") format("woff2"),
+  url("/fonts/6149660/a1adabe6-efe5-40b7-b619-48111c8ff883.woff") format("woff");
+}
+@font-face{
+  /* medium */
+  font-weight: 500;
+  font-family:"Avenir Next";
+  src:url("/fonts/6149670/f5d4f93b-454a-43e0-9ae8-7f1271b5c0fd.woff2") format("woff2"),
+  url("/fonts/6149670/72556e8c-c677-48d8-81ff-3eb8fc50033b.woff") format("woff");
+}
+
+@font-face{
+    /* demi */
+    font-weight: 600;
+    font-family:"Avenir Next";
+    src:url("/fonts/6149637/6afe4676-059a-4aa8-b891-29856bbcba22.woff2") format("woff2"),
+    url("/fonts/6149637/a9817c16-2a79-49bf-8543-6c846d73a52f.woff") format("woff");
+}
+@font-face{
+    /* bold */
+    font-weight: 700;
+    font-family:"Avenir Next";
+    src:url("/fonts/6149645/b56355b0-7729-42a7-9f65-62c7211d078c.woff2") format("woff2"),
+    url("/fonts/6149645/05537afc-e923-4df9-b365-71798fbd220d.woff") format("woff");
+}
+@font-face{
+    /* heavy */
+    font-weight: 900;
+    font-family:"Avenir Next";
+    src:url("/fonts/6383960/4c12ed83-b51a-4aa2-933e-91b51a349858.woff2") format("woff2"),
+    url("/fonts/6383960/174318b4-133a-4af1-b728-f45b53180bfc.woff") format("woff");
+}
+
 html {
   scroll-behavior: smooth;
 }
